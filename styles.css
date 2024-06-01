@@ -1,0 +1,89 @@
+/* styles.css */
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+
+/* Button styles */
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+
+.button:hover {
+    background-color: #0056b3;
+}
+
+/* Form styles */
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-input {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+}
+
+/* styles.css */
+.item {
+    margin: 5px;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.item.deselected {
+    background-color: lightgray;
+}
+
+.item.selected {
+    background-color: white;
+}
+
+.item.active {
+    background-color: lightgreen;
+}
+
+.item.error {
+    background-color: tomato;
+}
